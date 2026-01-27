@@ -1,0 +1,16 @@
+Branching And Merging 
+========================
+1. Git init and then Git clone any project and we need to create Branching Like Dev, QA, Tester, in repository
+2.cd folder name - of that colne project data we take from repository like cd Demo
+3. ls -l = To check how many files are present in folder or project
+4.$ git branch -M QA  = To select a branch from repository 
+5.vi file.txt create any file and add it to QA branch and save sa :wq
+6. ls -l to check new file create or not
+7.git status to check status
+8.git add .
+9.git commit -m "message"
+10. git push
+11.then erroe came so enter git push origin HEAD
+12.If error come first use pull and then push
+
+
